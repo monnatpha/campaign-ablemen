@@ -1,0 +1,792 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -60,
+    "scrollLeft": -166,
+    "zoomLevel": 0.3,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "[]_SelloutPrivilegePrivacyRegister",
+        "comment": "รอถามมชื่อข้างหน้า",
+        "columns": [
+          {
+            "name": "registerId",
+            "comment": "",
+            "dataType": "varchar(30)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 68.46630859375,
+              "widthDefault": 60
+            },
+            "id": "085dc850-aba8-4d52-8a30-98680b2de279"
+          },
+          {
+            "name": "liffId",
+            "comment": "2006057945-Nry8JeBK",
+            "dataType": "varchar(255)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 120,
+              "widthDataType": 75.6962890625,
+              "widthDefault": 60
+            },
+            "id": "4688f83f-42a7-454a-be19-718a2a8ea67c"
+          },
+          {
+            "name": "lineUserId",
+            "comment": "Uf91357ffb45b51c14826s92fa",
+            "dataType": "varchar(255)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60.525390625,
+              "widthComment": 120,
+              "widthDataType": 75.6962890625,
+              "widthDefault": 60
+            },
+            "id": "ad913728-a419-4b91-9ae9-4cf60b36c49f"
+          },
+          {
+            "name": "osType",
+            "comment": "WEB",
+            "dataType": "varchar(50)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 68.46630859375,
+              "widthDefault": 60
+            },
+            "id": "94789e54-827f-49ae-a79f-485547eac1e2"
+          },
+          {
+            "name": "fullName",
+            "comment": "มนต์ณัฐ พันธุ์ชัยพล",
+            "dataType": "varchar(255)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 103.43675231933594,
+              "widthDataType": 75.6962890625,
+              "widthDefault": 60
+            },
+            "id": "26a51d51-25d3-4c99-9a85-22e17dcd23f3"
+          },
+          {
+            "name": "phoneNumber",
+            "comment": "0944799687",
+            "dataType": "varchar(20)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 84.38623046875,
+              "widthComment": 74.2998046875,
+              "widthDataType": 68.46630859375,
+              "widthDefault": 60
+            },
+            "id": "7eb31b49-7985-4e63-83c2-067a38e523db"
+          },
+          {
+            "name": "purchaseChannel",
+            "comment": "ร้านค้าตัวแทนจำหน่าย",
+            "dataType": "varchar(255)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 103.9052734375,
+              "widthComment": 120,
+              "widthDataType": 75.6962890625,
+              "widthDefault": 60
+            },
+            "id": "28e7d84d-d426-43a5-81d2-6af2a24f919d"
+          },
+          {
+            "name": "productCode",
+            "comment": "DjFkPAFK3r9",
+            "dataType": "varchar(255)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 76.43896484375,
+              "widthComment": 80.50146484375,
+              "widthDataType": 75.6962890625,
+              "widthDefault": 60
+            },
+            "id": "46b50caa-6904-47c8-afbe-ab41215bf424"
+          },
+          {
+            "name": "agentStore",
+            "comment": "TG Fone",
+            "dataType": "varchar(255)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 65.603515625,
+              "widthComment": 60,
+              "widthDataType": 75.6962890625,
+              "widthDefault": 60
+            },
+            "id": "ec3f8f73-7fa2-4ad5-bb43-f36c5f9070ed"
+          },
+          {
+            "name": "storeCode",
+            "comment": "TBK-NMI-15-0027",
+            "dataType": "varchar(255)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 61.97900390625,
+              "widthComment": 107.47900390625,
+              "widthDataType": 75.6962890625,
+              "widthDefault": 60
+            },
+            "id": "f571d1b1-8f30-44ad-acc7-28bbb9b4cb43"
+          },
+          {
+            "name": "productCategory",
+            "comment": "1. กระจกกันรอยเต็มจอแบบด้าน เฉพาะรุ่น iphone เท่านั้น",
+            "dataType": "varchar(255)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 98.10986328125,
+              "widthComment": 120,
+              "widthDataType": 75.6962890625,
+              "widthDefault": 60
+            },
+            "id": "29d3c554-c8b2-4a12-bc37-86cc6b0e41e1"
+          },
+          {
+            "name": "model",
+            "comment": "iPhone 15",
+            "dataType": "varchar(100)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60.55078125,
+              "widthDataType": 75.6962890625,
+              "widthDefault": 60
+            },
+            "id": "2d872333-b909-4d06-9efc-cd64d3e9cd53"
+          },
+          {
+            "name": "acceptPDPA",
+            "comment": "true",
+            "dataType": "boolean",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 74.744140625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "f4206a1c-b4d1-43ab-a92c-fe3eacdf2974"
+          },
+          {
+            "name": "createdDate",
+            "comment": "2024-08-19 07:28:47",
+            "dataType": "datetime",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 72.82080078125,
+              "widthComment": 120,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "e2df8982-1505-4923-b259-dce991502e19"
+          }
+        ],
+        "ui": {
+          "active": true,
+          "left": 200,
+          "top": 101,
+          "zIndex": 702,
+          "widthName": 197.08251953125,
+          "widthComment": 104.71005249023438
+        },
+        "visible": true,
+        "id": "f83c4842-e87b-4fce-b1d3-d8bf9daf0305"
+      },
+      {
+        "name": "codegenerate",
+        "comment": "รหัสสินค้า",
+        "columns": [
+          {
+            "name": "Id",
+            "comment": "11905353",
+            "dataType": "int",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9adf8f1c-6390-40f8-acd8-df93c59f79a5"
+          },
+          {
+            "name": "code",
+            "comment": "106,70,107,80,65,70,75,51,114,57",
+            "dataType": "varchar(100)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 120,
+              "widthDataType": 75.6962890625,
+              "widthDefault": 60
+            },
+            "id": "208a772d-6cc5-4473-b860-eef777ba3fa0"
+          },
+          {
+            "name": "date",
+            "comment": "2020-02-28 12:18:20",
+            "dataType": "datetime",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 120,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6e10c152-9ed5-4e84-9bbd-0b1b640ef7ad"
+          },
+          {
+            "name": "status",
+            "comment": "active",
+            "dataType": "varchar(20)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 68.46630859375,
+              "widthDefault": 60
+            },
+            "id": "a1a9f290-ba94-46ae-945e-dca9a3df6b89"
+          },
+          {
+            "name": "category",
+            "comment": "D",
+            "dataType": "varchar(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 68.46630859375,
+              "widthDefault": 60
+            },
+            "id": "a4adf3d9-9539-4011-be16-0f6af6bc22ff"
+          },
+          {
+            "name": "status_check",
+            "comment": "",
+            "dataType": "varchar(20)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 77.87353515625,
+              "widthComment": 60,
+              "widthDataType": 68.46630859375,
+              "widthDefault": 60
+            },
+            "id": "638b27bc-3474-4b7e-9715-6b6a5db35444"
+          },
+          {
+            "name": "link",
+            "comment": "https://www.focusshield.com/submit-warranty/?fw=DjFkPAFK3r9",
+            "dataType": "varchar(300)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 120,
+              "widthDataType": 75.6962890625,
+              "widthDefault": 60
+            },
+            "id": "d6864d73-9fa7-4232-bab8-e37ad4ba7b74"
+          },
+          {
+            "name": "decode",
+            "comment": "DjFkPAFK3r9",
+            "dataType": "varchar(100)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 80.50146484375,
+              "widthDataType": 75.6962890625,
+              "widthDefault": 60
+            },
+            "id": "751f46d9-89b6-44a1-83f5-d83abc9879c2"
+          },
+          {
+            "name": "status_reward",
+            "comment": "0",
+            "dataType": "int",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 83.64990234375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "72982612-f5a7-4494-b70d-fda54dcf19b2"
+          },
+          {
+            "name": "date_up",
+            "comment": "",
+            "dataType": "varchar(50)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 68.46630859375,
+              "widthDefault": 60
+            },
+            "id": "f8a75d79-192e-4ebb-8f5b-aff146336f2e"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1038,
+          "top": 96,
+          "zIndex": 686,
+          "widthName": 81.5107421875,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "f25e0c34-82c0-42e2-b48e-ed0f0e4ee2bb"
+      },
+      {
+        "name": "tbl_model",
+        "comment": "รุ่นมือถือ",
+        "columns": [
+          {
+            "name": "model_id",
+            "comment": "103",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "1ecff639-5521-41c1-80ec-0fd8f44411f7"
+          },
+          {
+            "name": "model_code",
+            "comment": "8ba28113-3ec9-11ef-a071-067048836b1a",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 72.8271484375,
+              "widthComment": 120,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "5dd92e3a-7fe2-41f7-8aed-3411e0eaef91"
+          },
+          {
+            "name": "model_name",
+            "comment": "iPhone 15",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 77.15625,
+              "widthComment": 60.55078125,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "39992d46-7d49-4262-9a9c-5570a76101aa"
+          },
+          {
+            "name": "brand_name",
+            "comment": "Apple",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 74.998046875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "ca778995-125f-4e79-82ac-f830b059911f"
+          },
+          {
+            "name": "model_status",
+            "comment": "1",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 79.32080078125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "50293d1c-7efe-4dfd-8081-e8f8ed313724"
+          },
+          {
+            "name": "category",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "d7a63dfb-14a4-4c5f-b16d-d994c345c3b7"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1041,
+          "top": 400,
+          "zIndex": 701,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "d4461986-1091-42d7-949f-43599e9b94ad"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": []
+  }
+}
