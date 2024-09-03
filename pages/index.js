@@ -5,9 +5,9 @@ import { useSelector } from "react-redux";
 import Image from "next/image";
 
 export default function Home(props) {
-  // if (!props?.liff?.isLoggedIn()) {
-  //   props?.liff?.login();
-  // }
+  if (!props?.liff?.isLoggedIn()) {
+    props?.liff?.login();
+  }
 
   const router = useRouter();
   const [formData, setFormData] = useState({
