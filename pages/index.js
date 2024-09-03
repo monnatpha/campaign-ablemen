@@ -125,7 +125,7 @@ export default function Home(props) {
       {check === 1 && (
         <div className="mb-2 mt-6 text-center">
           <p> กรุณารอสักครู่ ทางร้านกําลัง</p>
-          <p> เตรี่ยมของพรีเมียมมอบให้ท่าน</p>
+          <p> เตรียมของพรีเมียมมอบให้ท่าน</p>
           <div className="flex items-center justify-center">
             <Image src={qrCodeUrl} alt="QR Code" width={200} height={200} />
           </div>
