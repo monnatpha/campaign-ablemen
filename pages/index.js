@@ -253,7 +253,7 @@ const Register = (props) => {
           minLength={10}
         />
         <SelectField
-          label="รุ่นมือถือ"
+          label="รุ่นไอโฟน"
           name="mobileModel"
           options={options.mobileModel}
           value={formData.mobileModel}
