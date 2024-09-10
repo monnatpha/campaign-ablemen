@@ -8,18 +8,8 @@ export const sendLarkSuccess = async (obj) => {
 };
 
 export const createMessageMediaSalesLark = async (obj, headMsg) => {
-  const {
-    acceptPDPA,
-    agentStore,
-    fullName,
-    mobileModel,
-    phoneNumber,
-    productCategory,
-    productQR,
-    purchaseChannel,
-    storeQR,
-    userLineId,
-  } = obj;
+  const { fullName, mobileModel, phoneNumber, productQR, storeQR, userLineId } =
+    obj;
 
   const title = `🟢🎉🎈🎊 ${headMsg} 🎊🎈🎉 🟢`;
   const message = `🆔 รหัสไลน์: ${userLineId}
@@ -29,15 +19,11 @@ export const createMessageMediaSalesLark = async (obj, headMsg) => {
 
 📦 ข้อมูลสินค้า
 รหัสสินค้า: ${productQR}
-ประเภทสินค้า: ${productCategory}
 รุ่นมือถือ: ${mobileModel}
 
 🏠 ข้อมูลร้านค้า
-ช่องทางการสั่งซื้อ: ${purchaseChannel}
-ร้านค้าตัวแทนจำหน่าย: ${agentStore}
 รหัสร้านค้า: ${storeQR}
-
-📝 ยอมรับเงื่อนไข PDPA: ${acceptPDPA}`;
+`;
   return { title, message };
 };
 
