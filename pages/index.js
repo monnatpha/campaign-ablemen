@@ -94,7 +94,7 @@ const Register = (props) => {
         await toast.success("ลงทะเบียนสำเร็จ");
         setBtnDisable(false);
         router.push("/register");
-        // liff.closeWindow();
+        setLoading(true);
       } catch (error) {
         toast.error("ลงทะเบียนไม่สำเร็จ");
       }

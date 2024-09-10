@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 const Register = (props) => {
   const router = useRouter();
   const handleOnclick = () => {
-    router.push("/");
+    router.push("https://liff.line.me/1656638120-EwmG04Md");
   };
   return (
     <div className="max-w-md mx-auto p-6 bg-white shadow-lg rounded-lg text-center">
