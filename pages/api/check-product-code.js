@@ -6,7 +6,7 @@ export default async function handler(req, res) {
     const { productCode } = req.query;
 
     try {
-      const [result] = await db.query("CALL WRFS_Test_Check_ProductCode(?)", [
+      const [result] = await db.query("CALL WRAS_Check_ProductCode(?)", [
         productCode,
       ]);
 

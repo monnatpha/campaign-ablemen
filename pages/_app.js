@@ -3,8 +3,6 @@ import { useState, useEffect } from "react";
 import liff from "@line/liff";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
-import store from "../redux/store";
-import { Provider } from "react-redux";
 
 function MyApp({ Component, pageProps }) {
   const [liffObject, setLiffObject] = useState(null);
@@ -60,9 +58,9 @@ function MyApp({ Component, pageProps }) {
   pageProps.liffError = liffError;
 
   return (
-    <Provider store={store}>
+    <>
       <Component {...pageProps} /> <ToastContainer />
-    </Provider>
+    </>
   );
 }
 
