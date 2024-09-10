@@ -73,7 +73,7 @@ const Register = (props) => {
           body: JSON.stringify({
             ...rest,
             phoneNumber: formattedPhoneNumber,
-            userLineId: "liff.getContext().userId",
+            userLineId: liff.getContext().userId,
           }),
         });
 
