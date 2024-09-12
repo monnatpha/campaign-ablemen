@@ -149,6 +149,14 @@ const Register = (props) => {
   const checkProdctCode = async (value) => {
     if (value) {
       try {
+        if (value.slice(0, 5) !== "BD111" && value.slice(0, 5) !== "FA111") {
+          toast.warn("Product Code ต้องขึ้นต้นด้วย BD111 หรือ FA111");
+          setFormData((prevData) => ({
+            ...prevData,
+            productQR: "",
+          }));
+          return;
+        }
         const response = await fetch(
           `/campaign/api/check-product-code?productCode=${encodeURIComponent(
             value
@@ -183,6 +191,7 @@ const Register = (props) => {
       }
     }
   };
+
   const checkStoreCode = async (value) => {
     if (value) {
       try {
